@@ -1,0 +1,98 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    font-size: 30px;
+    background-color: aqua;
+    padding: 16px;
+}
+
+.text{
+    font-size: 2em;
+    background-color: blueviolet;
+    width: 10em; 
+} */
+
+/* button{
+    border: none;
+    padding: 0.5em, 1px;
+    background-color: green;
+    border-radius:0.3em;
+    color: white;
+    font-size: 18px;
+     box-shadow: (0,0,0,0);
+    transition: all 700ms ease;
+
+btn:hover{
+    background-color: #21835f;
+    scale: 1.2;
+}
+.btn:active{
+    scale: 0.9;
+}
+.large{
+    font-size: 32px;
+} */
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* .p{
+    height: 200px;
+    padding: 16px;
+background-color: aqua;
+overflow: scroll;
+}
+
+.c{
+    border: 1px solid grey;
+    height: 80px;
+    background-color: antiquewhite;
+}  */ 
+
+/* .area{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+    grid-auto-rows: 50px;
+    /* justify-content: center;
+    justify-items:center;
+    justify-items: center; */
+
+
+/* }
+.card{
+    background-color: bisque;
+    border: 1px solid gray;
+} 
+
+.c2 {
+    grid-column-start: 2;
+    grid-row-end:4 ;
+    grid-column-start: 2;
+    grid-column-end: 4; */
+
+/* } */
+
+.p{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    padding-top: 10px;
+}
+
+.c1,.c2{
+    height: 70px;
+    width: 70px;
+    background-color: lime;
+    border: 1px solid grey;
+
+}
+.c1{
+    position: relative;
+    top: 10px;
+
+}

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .parent{
+    border: 1px solid violet;
+    height: 200px;
+    width: 200px;
+}
+
+.child{
+    border: 1px solid blue;
+    height: 60px;
+    width: 60px;
+}
+.c2{
+    position: relative;
+    left: 60px;
+}
+.c3{
+    position: relative;
+    left: 60px;
+} */
+
+/* .parent{
+    border: 1px solid red;
+    background-color: yellow;
+    height: 200vh;
+} */
+
+/* div
+{
+    padding: 16px,24px;
+    width: 50vh;
+    margin: auto;
+    background-color: rgb(237, 237, 35);
+}
+
+@media(width <=768px){
+    div{background-color: cornflowerblue};
+}
+button{
+    background-color: yellow;
+    padding: 8px 16px;
+    border-radius: 8px;
+} */
+.ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: springgreen;
+    animation-name: circulation;
+    animation: duration: 4s;
+}
