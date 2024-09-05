@@ -1,0 +1,127 @@
+ /* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header, section {
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.auth-buttons button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.auth-buttons .signup-btn {
+    background-color: #28a745;
+}
+
+/* Success Stories Section */
+.success-stories {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.success-stories h2 {
+    font-size: 28px;
+}
+
+.success-stories p {
+    font-size: 16px;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-item {
+    background-color: #fffae6;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+    text-align: left;
+}
+
+.author-info {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Companies Section */
+.companies {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.company-logos img {
+    max-width: 120px;
+    margin: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.testimonial-item {
+    max-width: 300px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.testimonial-item p {
+    font-size: 14px;
+}
+
+.testimonial-item strong {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+}
